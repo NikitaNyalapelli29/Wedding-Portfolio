@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.head,.head-sec{
+    height: 70px;
+}
+.offcan-bg{
+    background-color: black;
+}
+.head-sec,.join,footer,.bride-groom,.msg-text-under,.msg-90, .fam, .fam-90, .place-under,.form-div,.gal-img{ 
+    width: 90%;
+}
+.off-list,.foot-quick li{
+    list-style-type: none;
+}
+.hero-page{
+    background-image: url(../Images/Background/image103.jpg);
+    height: 550px;
+}
+.hero-page-u{
+    height: 400px;
+}
+.hero-page,.place-img1{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cursive{
+    font-family: 'Great Vibes', cursive;
+}
+.ws{
+    letter-spacing: 4px;
+}
+.join-name, .fam h2{
+    font-size: 64px;
+}
+.libre{
+    font-family: "Libre caslon Text", serif;
+}
+.join-date,.place h2{
+    font-size: 54px;
+}
+.pink-color,.join-name{
+    color: #F67E7D;
+}
+.img-50,.icon-bg{
+    border-radius: 50%;
+}
+.shadow-para{
+    text-shadow: 3px 7px 4px gray;
+}
+.msg{
+    height: 700px;
+    background-color: #f8f9fa;
+}
+.msg-text, .fam,footer{
+    padding: 100px 0px;
+}
+.msg-text-under{
+    height: 320px;
+    padding: 24px 20px;
+}
+.font-pop{
+    font-family: "Poppins", Arial,sans-serif;
+}
+.place{
+    background-color: #f8f9fa;
+    height: 1800px;
+    padding: 100px 0px;
+}
+.place-img1{
+    background-image:url(../Images/image123.jpg);
+}
+.place-img2{
+    background-image: url(../Images/image124.jpg);
+}
+.place-img3{
+    background-image: url(../Images/image125.jpg);
+}
+.place-img1,.place-img2,.place-img3,.form1{
+    height: 500px;
+}
+.place-wh{
+    width: 90%;
+    height: 94%;
+}
+.place-div{
+    width: 98%;
+}
+.bor{
+    border: 0.5px solid #F67E7D;
+}
+.mrg-form{
+    height: 750px;
+    background-color: #dcf4e6;
+}
+.btn1, .icon-bg{
+    background-color: #F67E7D;
+}
+.gal-img{
+    height: 3400px;
+}
+.icon-bg{
+    height: 50px;
+    width: 50px;
+}
+.foot-icon{
+    width: 65%;
+}
+.foot-quick li{
+    list-style-image: url(../Icons/arrow\ .png);
+    margin-bottom: 10px;
+}
+
+@media(min-width:768px){
+    .join-img{
+        height: 800px;
+    }
+    .msg-text-under{
+        width: 46%;
+        height: 300px;
+    }
+    .place{
+        height: 850px;
+    }
+    .form1{
+        width: 50%;
+    }
+    .gal-img{
+        margin-top: 80px;
+        height: 860px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width:992px){
+    .join-img{
+        height: 610px;
+    }
+    .msg-text-under{
+        width: 32%;
+    }
+    .a-menu{
+        color: gray;
+    }
+    .a-menu:hover{
+        color: #F67E7D;
+        border-bottom: 2px solid #F67E7D;
+    }
+    .foot-icon{
+        width: 80%;
+    }
+}
